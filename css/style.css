@@ -1,10 +1,9 @@
 .navbar {
+  font-size: 20px;
   display: flex;
   justify-content: space-around;
   color: white;
 }
-
-
 
 html {
     height: 100%;
@@ -20,12 +19,16 @@ a {
 }
 
 .main {
-    height: 100%;
+    margin: 20px;
+    border: 10px solid white;
+    display: flex;
+    justify-content: center;
 }
 .social-image{
     width: 80px;
     display: flex;
-    justify-content: space-between;
+    float: left;
+    margin: 30px;
 }
 
 .content {
